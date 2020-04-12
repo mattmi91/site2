@@ -1,0 +1,41 @@
+ body{
+ font-family: sans-serif;
+ }
+ 
+ h2{  text-align: center;
+		color: dark blue;
+		margin: 30px 0 50px;
+ }
+  
+  .gallery{
+	       margin: 10px 0px;
+	       text-align: center;
+	      
+  }
+  .gallery img{
+	  width:200px;
+	  height: 300px;
+	  padding:5px;
+	  filter: grayscale(50%);
+	  transition: 1s;
+	  
+  }
+	  .gallery img:hover{
+		  filter: grayscale(0);
+		  transform: scale(1.1);
+	  }
+ 
+ div.orbs{
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+div.msm{
+ 	position: absolute;
+	font-size: 150%;
+	width: 70%;
+	top: 150%;
+	left:15%;
+	bottom: -90%;
+	font-family: "palatino";
+}

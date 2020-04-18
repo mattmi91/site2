@@ -222,7 +222,7 @@ img {
 @media (max-width: 600px) {
 	img {
 		width: 230px;
-		
+		padding-bottom: 5px;
 		
 	}
 	

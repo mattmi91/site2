@@ -479,6 +479,16 @@ mark,
   max-width: 100%;
   height: auto; }
 
+.alert1{
+  text-align: center;
+  padding: 10px;
+  background: yellow;
+  color: white;
+  margin-bottom: 10px;
+  display: none;
+}
+
+
 .figure {
   display: inline-block; }
 

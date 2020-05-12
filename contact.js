@@ -28,11 +28,11 @@
       saveMessage(name, email, message);
   
       //show alert
-      document.querySelector('.alert').style.display = 'block';
+      document.querySelector('.alert1').style.display = 'block';
   
       //hide alert
       setTimeout(function(){
-          document.querySelector('.alert').style.display = 'none';
+          document.querySelector('.alert1').style.display = 'none';
       },3000);
   }
   
